@@ -33,8 +33,6 @@ foo@bar: ~/.../cuttingtool $ python cuttingtool.py
 
 
 ## Addition
-- Code build process는 [notion](https://www.notion.so/acelabwiki/Cuttingtool-200a160477a4494fb21563d9546e5051) 참조
-
 - tk는 python 내장 라이브러리여서 기본적으로 깔려있지만, 없을시 다음 명령어로 install 할 수 있다.
     ```shell
     foo@bar: $ sudo apt-get install python-tk
