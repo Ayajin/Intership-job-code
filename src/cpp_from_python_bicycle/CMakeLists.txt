@@ -8,12 +8,8 @@ find_package(
   geometry_msgs
   tf2_ros
   tf2
+  message_generation
 )
-# instead of
-# find_package(catkin REQUIRED)
-# find_package(roscpp REQUIRED)
-# find_package(std_msgs REQUIRED)
-# ... etc ...
 
 add_service_files(
   FILES
@@ -45,6 +41,7 @@ target_link_libraries(get_arrow ${catkin_LIBRARIES} ncurses)
 ## Build control_node
 add_executable(control_node src/control_node.cpp)
 target_link_libraries(control_node ${catkin_LIBRARIES})
+add_dependencies(control_node cpp_from_python_bicycle_generate_messages_cpp)
 
 ## Build bicycle_model
 add_executable(bicycle_model src/bicycle_model.cpp)
