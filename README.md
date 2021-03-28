@@ -6,9 +6,14 @@
 
 ### bicycle_model_run.sh
 
+* How to execute : ./bicycle_model_run.sh
+
 * run Bicycle model in Rviz. (be implemented as C++, Ros)
 
+
 ### tmap.sh
+
+* How to execute : ./tmap.sh
 
 * run Tmap-API & get route. It convert path to tile ID & get neighbor tile ID
 
@@ -17,6 +22,7 @@
 * Get neighbor tile ID by 'Publish Point'(Rviz)
 
 * Tile ID implemented as Quadratic Notation
+
 
 ### cuttingtool
 
