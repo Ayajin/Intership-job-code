@@ -13,12 +13,11 @@ foo@bar: ~/.../cuttingtool $ python cuttingtool.py
 ```
 
 ## Interface example
-
-![sample-2021-03-10_14.19.37](/uploads/462517b73697c5b25fffd15d6afed946/sample-2021-03-10_14.19.37.gif)
+![sample-2021-03-10_14 19 37](https://user-images.githubusercontent.com/59246325/112758249-45daf080-9028-11eb-8318-4e9a0cba9fe7.gif)
 
 
 ## Structure
-![cuttingtool_structure](/uploads/96407140657491010ceb6bf38ef2dd8a/cuttingtool_structure.png)
+![cuttingtool_structure](https://user-images.githubusercontent.com/59246325/112758266-5c814780-9028-11eb-8b92-73a960e6f232.png)
 - 디렉토리는 파란색, script는 검은색이다.
 
 - 'Input' directory는 자르고 싶은 파일을 넣어놓는 디렉토리이다. 없어도 프로그램은 구동 가능하다.  Input할 map을 찾을 때 편하도록 만들어 놓았으며, 2가지 예시의 맵이 들어있다.
