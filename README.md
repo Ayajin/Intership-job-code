@@ -4,16 +4,26 @@
 
 * just download and catkin_make
 
+* The result directory contains usage examples and results in videos and photos.
+
 ### bicycle_model_run.sh
 
-* How to execute : ./bicycle_model_run.sh
+* How to execute :
+
+    ''''shell
+    foo@bar: $ ./bicycle_model_run.sh
+    ''''
 
 * run Bicycle model in Rviz. (be implemented as C++, Ros)
 
 
 ### tmap.sh
 
-* How to execute : ./tmap.sh
+* How to execute :
+
+    ''''shell
+    foo@bar: $ ./tmap.sh
+    ''''
 
 * run Tmap-API & get route. It convert path to tile ID & get neighbor tile ID
 
