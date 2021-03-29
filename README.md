@@ -9,9 +9,10 @@
 ### bicycle_model_run.sh
 
 * How to execute :
-  '''shell
-  foo@bar: $ ./bicycle_model_run.sh
-  '''
+
+'''shell
+foo@bar: $ ./bicycle_model_run.sh
+'''
 
 * run Bicycle model in Rviz. (be implemented as C++, Ros)
 
@@ -20,9 +21,9 @@
 
 * How to execute :
 
-  '''shell
-  foo@bar: $ ./tmap.sh
-  '''
+'''shell
+foo@bar: $ ./tmap.sh
+'''
 
 * run Tmap-API & get route. It convert path to tile ID & get neighbor tile ID
 
