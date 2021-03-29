@@ -10,7 +10,7 @@
 
 * How to execute :
 
-    '''shell
+    '''
     foo@bar: $ ./bicycle_model_run.sh
     '''
 
@@ -21,7 +21,7 @@
 
 * How to execute :
 
-    '''shell
+    '''
     foo@bar: $ ./tmap.sh
     '''
 
